@@ -5,26 +5,13 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <Technologies />
-      <School />
+      <header></header>
+      <nav></nav>
+      <section></section>
+      <footer></footer>
+
     </div>
   );
 }
-
-const Technologies = () => {
-  return <div>
-    <ul>html</ul>
-    <ul>css</ul>
-    <ul>js</ul>
-  </div>
-}
-const School = () => {
-  return <div>
-    <ul>1</ul>
-    <ul>2</ul>
-    <ul>3</ul>
-  </div>
-}
-
 
 export default App;
