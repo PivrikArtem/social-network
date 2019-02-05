@@ -11,33 +11,6 @@
      'footer footer'
 }
 
-.header {
-    grid-area: header;
-    background-color: blueviolet;
-}
-
-.header img {
-    width: 40px;
-}
-.content article img {
-  width:100%;
-  max-height: 100px;
-}
-.nav {
-    grid-area: nav;
-    background-color: brown;
-}
-
-.content {
-    grid-area: content;
-    background-color: green;
-}
-
-.footer {
-    grid-area: footer;
-    background-color: blue;
-}
-
 @media screen and (max-width:600px){
   .app-wrapper{
     grid-template-areas:
