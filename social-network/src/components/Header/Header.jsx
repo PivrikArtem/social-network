@@ -1,9 +1,9 @@
 import React from 'react';
-import './Header.css';
+import s from './Header.module.css';
 
 const Header = () => {
     return (
-        <header className='header'>
+        <header className={s.header}>
             <img src='https://image.flaticon.com/icons/svg/149/149990.svg' />
         </header>
     )

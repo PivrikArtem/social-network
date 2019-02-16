@@ -1,11 +1,11 @@
 import React from 'react';
-import './Profile.css';
+import s from './Profile.module.css';
 
 const Profile = () => {
     return (
-        <section className='content'>
+        <section className={s.content}>
             <article>
-                <img src='http://amandajevans.com/wp-content/uploads/2019/01/inspirational-motivational-quotes-6.jpg' />
+                <img src='https://images2.alphacoders.com/230/230080.jpg' />
             </article>
             <article>
                 ava+description

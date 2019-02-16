@@ -1,0 +1,10 @@
+.header {
+    grid-area: header;
+    background-color:rgb(5, 59, 57);
+    opacity: .8;
+    position: sticky;
+      }
+
+.header img {
+    width: 40px;
+   }

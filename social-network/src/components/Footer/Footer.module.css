@@ -1,0 +1,6 @@
+.footer {
+    grid-area: footer;
+    background-color:rgb(5, 59, 57);
+    opacity: .8;
+    color:white;
+}

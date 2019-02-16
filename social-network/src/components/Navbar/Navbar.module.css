@@ -1,0 +1,9 @@
+.nav {
+  grid-area: nav;
+  background-color:rgb(5, 59, 57);
+  opacity: .9;
+  
+}
+.nav a{
+  color:white;
+}
