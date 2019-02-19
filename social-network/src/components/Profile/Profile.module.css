@@ -2,9 +2,4 @@
     width:80%;
     max-height: 250px;
   }
-  
-  .content {
-      grid-area: content;
-      background-color:rgb(5, 59, 57);
-      color:white;
-  }
+   

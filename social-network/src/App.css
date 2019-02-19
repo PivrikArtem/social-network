@@ -9,6 +9,11 @@
      'nav content' 
      'footer footer'
 }
+.app-wrapper-content {
+      grid-area: content;
+      background-color:rgb(5, 59, 57);
+      color:white;
+  }
 
 @media screen and (max-width:600px){
   .app-wrapper{
