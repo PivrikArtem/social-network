@@ -7,3 +7,7 @@
 .nav a{
   color:white;
 }
+.nav a.active{
+  color:white;
+  opacity: .7;
+}
