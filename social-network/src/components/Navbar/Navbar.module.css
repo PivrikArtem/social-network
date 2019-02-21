@@ -2,10 +2,12 @@
   grid-area: nav;
   background-color:rgb(5, 59, 57);
   opacity: .9;
+  padding:10px;
   
 }
 .nav a{
   color:white;
+  padding: 5px;
 }
 .nav a.active{
   color:white;
