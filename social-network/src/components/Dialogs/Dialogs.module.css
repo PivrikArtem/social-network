@@ -1,0 +1,22 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    padding: 10px 0px 0px 10px;
+}
+
+.dialogItem {
+
+}
+
+.dialog a {
+    color: white;
+}
+.dialog a:hover {
+    color: white;
+    opacity: .7;
+}
+
+.dialogItem a.active {
+    opacity: .7;
+
+}
