@@ -2,32 +2,33 @@ import React from 'react';
 import s from './Dialogs.module.css';
 import {NavLink} from "react-router-dom";
 
+const DialogItem = (props) => {
+    return (
+        <div className={s.dialog}>
+            <NavLink activeClassName={s.active} to={'/dialogs/' + props.id}> {props.name} </NavLink>
+        </div>
+    )
+}
+const Message = (props) => {
+    return (
+        <article className="messsage">{props.message}</article>
+    )
+}
 const Dialogs = (props) => {
     return (
         <main className={s.dialogs}>
             <section className={s.dialogItem}>
-                <div className={s.dialog}>
-                    <NavLink activeClassName={s.active} to='/dialogs/1'> Sasha </NavLink>
-                </div>
-                <div className={s.dialog}>
-                    <NavLink activeClassName={s.active} to='/dialogs/2'> Andry </NavLink>
-                </div>
-                <div className={s.dialog}>
-                    <NavLink activeClassName={s.active}to='/dialogs/3'> Artem </NavLink>
-                </div>
-                <div className={s.dialog}>
-                    <NavLink activeClassName={s.active} to='/dialogs/4'> Alex </NavLink>
-                </div>
-
+                <DialogItem name='Sasha' id='1'/>
+                <DialogItem name='Inna' id='2'/>
+                <DialogItem name='Artem' id='3'/>
+                <DialogItem name='Alex' id='4'/>
             </section>
             <section className="messages">
-                <article className="messsage">Hi</article>
-                <article className="messsage">How are you?</article>
-                <article className="messsage">Fine</article>
+                <Message message='How are you?'/>
+                <Message message='Hi'/>
+                <Message message='And you?'/>
             </section>
         </main>
     );
-
-
 };
 export default Dialogs;
